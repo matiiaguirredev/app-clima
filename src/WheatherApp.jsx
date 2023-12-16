@@ -4,7 +4,7 @@ import { useState } from "react"
 export const WheatherApp = () => {
 
     const urlBase = 'https://api.openweathermap.org/data/2.5/weather'
-    const API_KEY = '814da86aae748ae5053c4a36227fa05c'
+    const API_KEY = 'INSERT_YOUR_API_KEY'
     const difKelvyn = 273.15
 
     const [ciudad, setCiudad] = useState('')
